@@ -1,0 +1,70 @@
+1) massiv berilgan bolsa massivning boshidagi 2 ta element yig’indisni qaytaring.
+Agar massiv uzunligi 2 dan kichik bo'lsa, mavjud elementlarni chiqaring, agar massiv uzunligi 0 bo'lsa, 0 ni qaytaring.
+
+sum2([1, 2, 3]) → 3
+sum2([1, 1]) → 2
+
+
+2) Berilgan ikkita  massiv, a va b, har bir uzunligi 3, ularning o'rta elementlarini o'z ichiga olgan yangi massiv uzunligi 2ni qaytaradi.
+middleWay([1, 2, 3], [4, 5, 6]) → 2,5
+middleWay([7, 7, 7], [3, 8, 0]) → 7,8
+middleWay([5, 2, 9], [1, 4, 5]) → 2,4
+3).Juft bo'luvchilar
+ 
+Berilish:
+Juft bo'luvchilar Matematika o'qituvchisi o'z o'quvchilariga berilgan N sonining juft bo'luvchilari sonini topib kelishni uy vazifasi qilib berdi. O'quvchilarga buni topishda yordam bering.
+Kiruvchi ma'lumotlar: INPUT.TXT kirish faylining birinchi qatorida bitta butun son, testlar soni kiritiladi. Keyingi ta qatorning har birida bittadan butun son, vazifa qilib berilgan son kiritiladi. 
+Chiquvchi ma'lumotlar: OUTPUT.TXT chiqish faylida har bir test uchun alohida qatorda bittadan butun son, berilgan sonning juft
+
+4) 6 raqami haqiqatdan ham ajoyib raqam. Berilgan ikkita  qiymatlari, a va b, agar ulardan biri 6 bo'lsa, true qiymatini qaytaring. Yoki ularning yig'indisi yoki ayirmasi 6 bo'lsa true qaytaring. Aks holda false qaytaring
+
+love6(6, 4) → true
+love6(4, 5) → false
+love6(1, 5) → true
+
+5) sizga ism berilan bolsa salomlashuvchi dastur tuzing
+helloName('Bob') → Hello Bob!
+helloName('Alice') → Hello Alice!
+helloName('X') → Hello X!
+
+6)Berilish: 
+Katta-kichik Sonlar ustida amallarning eng muximlaridan biri bu - taqqoslashdir. Ushbu masalada sizga qo'yilgan talab, ikkita butun sonni taqqoslash kerak bo'ladi 
+Kiruvchi ma'lumotlar: 
+Kirish oqimida ikkita butun son A va B berilgan bo'ladi, va ularning absolyut qiymati 2×10 dan kichik bo'ladi.
+Chiquvchi ma'lumotlar: 
+Chiqarish oqimida bitta belgi chiqarish kerak. Agar A > B bo'lsa ">", agar A = B bo'ls a "=", yoki A < B bo'lganda "<" belgisini.
+
+7) bizga satr berilgan bolsa uni 3 taga kopaytirib qaytaradigan funksiya yarating
+front3('Jav') → JavJavJav
+front3('abc') → abcabcabc
+
+8)Istalgan uzunlikdagi 2 ta  massivlari berilgan a va b, har bir massivning birinchi elementi bilan yangi massivni qaytaring. Agar massiv uzunligi 0 bo'lsa, bu massivga e'tibor bermang.
+front11([1, 2, 3], [7, 9, 8]) → 1,7
+front11([1], [2]) → 1,2
+front11([1, 7], []) → 1
+
+9) bizga massiv berilgan bolsa. Massiv boshidagi element yoki ohiridagi element 6 ga teng bolsa true qaytaring aks holda false qaytsin
+
+firstLast6([1, 2, 6]) → true
+firstLast6([6, 1, 2, 3]) → true
+firstLast6([13, 6, 1, 2, 3]) → false
+
+10)   2 ta parametrni o'z ichiga olgan funksiya yarating ("Start", "Stop") va shu oraliqda bo'lgan sonlarni yig'indisini qaytaring
+(10, 20)   =>   90
+(51, 150)   =>   5050
+(63, 97)   =>   1360 
+
+11)  Ota va o'gil bor edi. Ularning hozirgi yoshi sizga parametr sifatida beriladi ("fAge", "sAge"). Sizning vazifangiz Otaning yoshi o'z o'g'lining yoshidan necha yil avval, yoki necha yildan keyin 2 baravar katta bo'lishini hisoblashdir.
+(36, 7)   =>   22
+(55, 30)   =>   5
+(42, 21)   =>   0
+
+12) Funksiya yarating, n sonini qabul parametr sifatida qabul qilsin, va 1 dan n gacha bo'lgan sonlarni kublarining yig'indisini qaytarsin. (n>0)
+(3)   =>   36
+(7)   =>   784
+(8)   =>   1296
+
+13   Funksiya yarating, N sonini qabul parametr sifatida qabul qilsin. Berilgan N sonini raqamlari  yig'indisini chiqarsin(10<N<99):
+(12)   =>   3
+(58)   =>   13
+(71)   =>   8
